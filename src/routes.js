@@ -6,6 +6,7 @@ import QuestionCreatePage from './components/questions/QuestionCreatePage';
 import Quiz from './components/quiz/Quiz';
 import QuizPage from './components/quiz/QuizPage';
 import Courses from './components/courses/Courses';
+import CoursePage from './components/coursePage/CoursePage';
 
 // komponenta u kojoj su definisane sve rute u aplikaciji
 export default (
@@ -15,5 +16,6 @@ export default (
         <Route path="quizzes" component={QuizPage} />{/* QuizPage komponenta, child (strana sa spiskom kvizova)*/}
         <Route path="quizzes/:id" component={Quiz} />{/* Componenta Quiz, quizzes + id je url za tu stranu, child, strana sa kvizom*/}
         <Route path="courses" component={Courses} />{/* Componenta Courses, prikazuje kurseve u app*/}
+        <Route path="CoursePage" component={CoursePage} />{/* Componenta CoursePage, prikazuje kurs u app*/}
     </Route>
 );

@@ -22,8 +22,12 @@ const Header = () => {
                     </NavItem>
                     <NavItem eventKey={5}>
                         <Link to="/quizzes" activeClassName="active">Quiz</Link>
-                    </NavItem> <NavItem eventKey={7}>
+                    </NavItem> 
+                    <NavItem eventKey={7}>
                         <Link to="/courses" activeClassName="active">Courses</Link>
+                    </NavItem>
+                    <NavItem eventKey={9}>
+                    <Link to="/CoursePage" activeClassName="active">Course Page</Link>
                     </NavItem>
                 </Nav>
             </Navbar.Collapse>
