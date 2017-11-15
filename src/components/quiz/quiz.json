@@ -1,0 +1,82 @@
+// json za kviz
+{
+    // prvi deo
+    "id": "_8j5exvrot",
+    "title": "Vezba",
+    "questions": [
+        {
+            // drugi deo
+            "id": "_uosfpm4cn",
+            "question": "Koliko je 2+2?",
+            "answers": [
+                {
+                    // treci deo
+                    "questionId": "_uosfpm4cn",
+                    "id": "_go2o9zllu",
+                    "label": "4",
+                    "isTrue": true
+                },
+                {
+                    "questionId": "_uosfpm4cn",
+                    "id": "_5fok3c5qu",
+                    "label": "5",
+                    "isTrue": false
+                },
+                {
+                    "questionId": "_uosfpm4cn",
+                    "id": "_xgipqeuom",
+                    "label": "3",
+                    "isTrue": false
+                }
+            ]
+        },
+        {
+            "id": "_w42zns8r3",
+            "question": "Koliko je 1+1?",
+            "answers": [
+                {
+                    "questionId": "_w42zns8r3",
+                    "id": "_cvkcit0xl",
+                    "label": "1",
+                    "isTrue": false
+                },
+                {
+                    "questionId": "_w42zns8r3",
+                    "id": "_jri4o0dyh",
+                    "label": "2",
+                    "isTrue": true
+                },
+                {
+                    "questionId": "_w42zns8r3",
+                    "id": "_jri4o0dyh",
+                    "label": "3",
+                    "isTrue": false
+                }
+            ]
+        },
+        {
+            "id": "_5zcjdxk15",
+            "question": "Koliko je 1x1?",
+            "answers": [
+                {
+                    "questionId": "_5zcjdxk15",
+                    "id": "_x0jxcrk7k",
+                    "label": "1",
+                    "isTrue": true
+                },
+                {
+                    "questionId": "_5zcjdxk15",
+                    "id": "_apqsifxh2",
+                    "label": "2",
+                    "isTrue": false
+                },
+                {
+                    "questionId": "_5zcjdxk15",
+                    "id": "_apqsifxh2",
+                    "label": "4",
+                    "isTrue": false
+                }
+            ]
+        }
+    ]
+}
