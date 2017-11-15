@@ -6,6 +6,13 @@ class App extends React.Component {
         return (
             <div className="container-fluid">
                 <Header />
+                {
+                    /*
+                    this rec oznacava skracenisu pistupanja komponente,
+                    props: property sadrzaj komponente,
+                    children: prikazije sve komponente koje su children
+                    */
+                }
                 {this.props.children}
             </div>
         );
@@ -14,6 +21,6 @@ class App extends React.Component {
 
 App.propTypes = {
     children: PropTypes.object.isRequired
-}
+};
 
 export default App;
